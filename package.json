@@ -1,0 +1,24 @@
+{
+  "name": "parcel-boilerplate",
+  "version": "0.0.1",
+  "description": "Simple boilerplate for Parcel (HTML, JS, SCSS)",
+  "main": "./src/html/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel ./src/html/**/*.html",
+    "build": "parcel build ./src/html/**/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otto-HH/parcel-boilerplate.git"
+  },
+  "author": "Sebastian Otto Günther",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Otto-HH/parcel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Otto-HH/parcel-boilerplate#readme",
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  }
+}
